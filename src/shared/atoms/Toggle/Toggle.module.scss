@@ -1,0 +1,27 @@
+.wrapper{
+    width: 50px;
+    height: 25px;
+    background: var(--color-neutral);
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s;
+    &_active{
+        background: var(--color-primary);
+    }
+}
+
+.inside{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    transition: left 0.3s;
+    &_active{
+        left: calc(100% - 22px);
+    }
+}

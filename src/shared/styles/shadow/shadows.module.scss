@@ -1,0 +1,13 @@
+.shadow {
+  &_easy {
+    box-shadow: var(--shadow-easy);
+  }
+
+  &_medium {
+    box-shadow: var(--shadow-medium);
+  }
+
+  &_strong {
+    box-shadow: var(--shadow-strong);
+  }
+}

@@ -1,0 +1,41 @@
+.btn {
+  cursor: pointer;
+
+  padding: 17px 74px;
+  border-radius: 36px;
+
+  font-size: 1.125rem;
+  font-weight: 500;
+
+  transition: 0.3s all;
+
+  &_mode1 {
+    color: var(--color-text-secondary);
+    background-color: var(--color-button-mode1);
+
+    &:hover {
+      background-color: var(--color-button-mode1-hover);
+    }
+
+    &:active {
+      background-color: var(--color-button-mode1-active);
+    }
+  }
+
+  &_mode2 {
+    color: var(--color-text-secondary);
+    background-color: var(--color-button-mode2);
+
+    &:hover {
+      background-color: var(--color-button-mode2-hover);
+    }
+
+    &:active {
+      background-color: var(--color-button-mode2-active);
+    }
+  }
+
+  &_disabled {
+    background-color: var(--color-button-disabled);
+  }
+}
